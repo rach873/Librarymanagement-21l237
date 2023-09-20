@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Library</title>
+     <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <h>Book Details</h>
+        <form onclick="addbook()">
+        <input type="text" id="theInput1"> 
+        <input type="button"  value="Add element at end">
+       </form> 
+      <button onclick = "return remlastbook()">click here to remove last book</button>
+        <form onsubmit=" addBookToFront()">
+        <input type="text" id="theInput2"> 
+        <input type="button" value = "Add Book at front">
+    </form>
+       <button onclick = "removeFirstBook()">click here to remove first book</button><br>
+       <button onclick = "return  getAllTitles()">Title names</button>
+       <br>
+       <button onclick = "return getBooksByAuthor(author)">Author names</button><br>
+       <button onclick = "return getTotalBooksPublishedBefore(year)">Total book published </button><br>
+       <button onclick = "return removeBookByTitle(title)">Remove book by title</button><br>
+       <button onclick = "return getBooksByReadStatus(Status)">Readstatus books</button><br>
+       <button onclick = "return getSubLibrary(start, end)">Portion of library</button><br>
+       <script src="javascript.js"></script>
+
+    </body>
+    
+     
+</html>

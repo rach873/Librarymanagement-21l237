@@ -1,0 +1,83 @@
+body{
+    top:-200;
+    text-align: center;
+    color:azure;
+    background-image:url(libimg.webp) ;
+    font-size:70px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    line-height: 130px;
+}
+p{
+    color:aquamarine; 
+    text-align:center;
+    font-size:xx-large;
+}
+button{
+ 
+        display: inline-block;
+        padding: 5px 5px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #40a140;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px green;
+        transform: translateY(4px);
+    
+    }
+button:hover {
+        background-color:black
+    }
+
+button:active {
+  background-color: #0d0f0d;
+  box-shadow: 0 5px green;
+  transform: translateY(4px);
+}
+      
+      
+
+input[type=text] {
+    background-color:#40ca40;
+    color: white;
+  }
+  theInput1{
+    
+    font-size: 10px;
+    border: 2px solid red;
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+   height: 25px;
+   line-height: 20px;
+   vertical-align: middle
+
+  }
+  theinput1:enabled {
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+  theInput2{
+    font-size: 10px;
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    height: 25px;
+    line-height: 20px;
+    vertical-align: middle
+    
+   }
+   theinput2:enabled {
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+  }
